@@ -8,8 +8,10 @@ class Apiq < Formula
   depends_on "ruby"
 
   def install
-    bin.install "apiq-0.1.0/bin/apiq"
-    lib.install Dir["apiq-0.1.0/lib/*"]
+    cd "apiq-0.1.0" do
+      bin.install "bin/apiq"
+      lib.install Dir["lib/*"]
+    end
   end
 
   test do
