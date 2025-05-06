@@ -2,7 +2,7 @@ class Apiq < Formula
   desc "A powerful and easy-to-use API CLI tool for developers"
   homepage "https://github.com/aki-mia/apiq"
   url "https://github.com/aki-mia/apiq/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "8bcec3e9e89fb0eb9c19612d3462e1c494f3d7fa4c8e5a928788b9d434b7fc6f"
+  sha256 "2f6cbfc508cbdcea48c5dd891aa049194afd6c131d79b5b21893b09dcd24dda2"
   version "0.1.0"
 
   depends_on "ruby"
