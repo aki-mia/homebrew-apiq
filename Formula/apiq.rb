@@ -3,7 +3,7 @@ class Apiq < Formula
   homepage "https://github.com/aki-mia/apiq"
   url "https://github.com/aki-mia/apiq/releases/download/v0.1.0/apiq-0.1.0.tar.gz"
   sha256 "ここにshasum -a 256で得たハッシュを記載"
-  version "0.1.0"
+  version "0.0.1"
 
   depends_on "ruby"
 
